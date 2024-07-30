@@ -268,3 +268,30 @@ a:hover {
     height: 22px;
     margin-right: 4px;
 }
+.minimalist-block {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.minimalist-block h2 {
+    margin: 0 0 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.minimalist-block ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.minimalist-block ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+}
