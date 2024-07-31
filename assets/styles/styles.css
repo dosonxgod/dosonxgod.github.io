@@ -314,3 +314,51 @@ a:hover {
     font-size: 20px;
     line-height: 18px;
 }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-proj {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.video-item {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.video-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+
+.video-item a:hover {
+    color: #007BFF;
+}
