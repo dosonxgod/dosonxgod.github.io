@@ -315,35 +315,23 @@ a:hover {
     line-height: 18px;
 }
 
-.container-proj {
-    width: 80%;
-    max-width: 800px;
-    text-align: center;
-    background-color: #fff;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    margin-bottom: 20px;
-}
-
-.video-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-}
-
-.video-item {
-    background-color: #e0e0e0;
-    padding: 15px;
-    border-radius: 5px;
-    overflow: hidden;
-    position: relative;
-}
-
-.video-item iframe {
-    width: 100%;
+.video {
+    margin: 10px;
+    width: 300px;
     height: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
     border: none;
+    border-radius: 8px;
 }
